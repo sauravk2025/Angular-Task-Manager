@@ -34,11 +34,11 @@ It allows you to **select multiple users**, **add tasks**, and **mark them as co
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**
+1. **Clone the repository**\
    bash\
    git clone https://github.com/<your-username>/angular-task-manager.git \
-   cd angular-task-manager \
-2. **Install dependencies**
+   cd angular-task-manager 
+2. **Install dependencies**\
    npm install
-3. **Run the app**
+3. **Run the app**\
    ng serve
