@@ -1,47 +1,49 @@
-# 🌐 Angular Projects Collection
 
-This repository contains two Angular-based web applications:
+## 🧾 **Task Manager – README.md**
 
-1. 💰 **Investment Calculator** – Calculate yearly investment growth and returns  
-2. ✅ **Task Manager** – Manage tasks for multiple users with localStorage persistence  
 
-Both apps are built using **Angular**, **HTML**, and **CSS**, showcasing clean design and practical front-end logic.
+# ✅ Task Manager (Angular)
+
+A **Task Management Web App** built using **Angular**, **HTML**, and **CSS**.  
+It allows you to **select multiple users**, **add tasks**, and **mark them as completed** — with data stored in **localStorage**, so tasks persist even after page refresh.
 
 ---
 
-## 📂 Project List
+## 🚀 Features
 
-### 1. 💰 Investment Calculator
+- 👥 **Multi-user support**
+- ➕ **Add new tasks** per user
+- ✅ **Mark tasks as completed** (auto removed from UI)
+- 💾 **LocalStorage persistence** (data saved across refreshes)
+- 🔄 **Dynamic updates** using Angular data binding
+- 🎨 **Minimal, responsive UI** built with custom CSS
 
-An **Investment Calculator Web App** that helps users estimate their **yearly investment value**, **interest earned**, and **total invested capital** based on:
-- Initial investment
-- Annual investment
-- Expected annual return
-- Investment duration
+---
 
-#### 🚀 Features
-- Calculates yearly **Investment Value**, **Interest (per year)**, **Total Interest**, and **Invested Capital**
-- Dynamic **data table** showing year-wise breakdown
-- Clean, responsive UI with **custom CSS**
-- Built with **Angular components** and **data binding**
+## 🧰 Tech Stack
 
-#### 🧮 Example Output
-| Year | Invested Capital | Interest Earned | Total Interest | Investment Value |
-|------|------------------|-----------------|----------------|------------------|
-| 1 | ₹10,000 | ₹800 | ₹800 | ₹10,800 |
-| 2 | ₹20,000 | ₹1,640 | ₹2,440 | ₹21,640 |
-| ... | ... | ... | ... | ... |
-
-#### 🧰 Tech Stack
 | Technology | Purpose |
 |-------------|----------|
 | Angular | Frontend framework |
+| TypeScript | Logic and data handling |
 | HTML5 | UI structure |
 | CSS3 | Styling |
-| TypeScript | Logic and calculations |
+| LocalStorage API | Persistent storage |
 
-#### ⚙️ Setup Instructions
-```bash
-cd investment-calculator
-npm install
-ng serve
+---
+
+## 🖼️ Preview
+
+> *(Add screenshot or demo GIF here if available)*  
+>
+> Example:  
+> ![Task Manager Screenshot](./assets/task-manager-preview.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   bash
+   git clone https://github.com/<your-username>/angular-task-manager.git
+   cd angular-task-manager
