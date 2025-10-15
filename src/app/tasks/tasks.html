@@ -1,0 +1,25 @@
+<!-- <p (select)="onSelectUser($event)"></p> -->
+<section id="tasks">
+
+    <header>
+        <h2>{{username}}'s Tasks</h2>
+        <menu>
+            <button (click)="onSelectUser()">Add Task</button>
+        </menu>
+        @if(this.isAdded)
+        {
+            <app-new-task [userID]="id" (cancel)="onClickUser()"/>
+        }
+        
+    </header>
+
+    <ul>
+        @for(item of userTask; track item.id)
+        {
+            <li>
+                <app-task-list [task]="item" (completed)="onComplete($event)" />
+            </li>
+        }
+        
+    </ul>
+</section>
