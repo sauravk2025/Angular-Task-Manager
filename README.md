@@ -1,59 +1,47 @@
-# HelloWorld
+# 🌐 Angular Projects Collection
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+This repository contains two Angular-based web applications:
 
-## Development server
+1. 💰 **Investment Calculator** – Calculate yearly investment growth and returns  
+2. ✅ **Task Manager** – Manage tasks for multiple users with localStorage persistence  
 
-To start a local development server, run:
+Both apps are built using **Angular**, **HTML**, and **CSS**, showcasing clean design and practical front-end logic.
 
+---
+
+## 📂 Project List
+
+### 1. 💰 Investment Calculator
+
+An **Investment Calculator Web App** that helps users estimate their **yearly investment value**, **interest earned**, and **total invested capital** based on:
+- Initial investment
+- Annual investment
+- Expected annual return
+- Investment duration
+
+#### 🚀 Features
+- Calculates yearly **Investment Value**, **Interest (per year)**, **Total Interest**, and **Invested Capital**
+- Dynamic **data table** showing year-wise breakdown
+- Clean, responsive UI with **custom CSS**
+- Built with **Angular components** and **data binding**
+
+#### 🧮 Example Output
+| Year | Invested Capital | Interest Earned | Total Interest | Investment Value |
+|------|------------------|-----------------|----------------|------------------|
+| 1 | ₹10,000 | ₹800 | ₹800 | ₹10,800 |
+| 2 | ₹20,000 | ₹1,640 | ₹2,440 | ₹21,640 |
+| ... | ... | ... | ... | ... |
+
+#### 🧰 Tech Stack
+| Technology | Purpose |
+|-------------|----------|
+| Angular | Frontend framework |
+| HTML5 | UI structure |
+| CSS3 | Styling |
+| TypeScript | Logic and calculations |
+
+#### ⚙️ Setup Instructions
 ```bash
+cd investment-calculator
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
